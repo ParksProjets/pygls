@@ -70,7 +70,7 @@ class WorkspaceCapabilitiesSymbolKind(Model):
 
 
 class WorkspaceCapabilitiesTagSupport(Model):
-    value_set: List[SymbolKind]
+    value_set: List[SymbolTag]
 
 
 class DocumentSymbolCapabilitiesTagSupport(Model):
